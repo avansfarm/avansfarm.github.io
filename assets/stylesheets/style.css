@@ -51,7 +51,9 @@ body {
   font-family: Georgia, Times, serif;
   font-size: 1rem;
   line-height: 1.5rem;
-  position: relative; }
+  position: relative;
+}
+
 
 a {
   color: #02779e;
@@ -71,8 +73,9 @@ a {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
+  padding-left: 10%;
+  margin-right: 10%;
+  
   /*zoom: 1;
   margin: 0 15%;
   position: relative;
@@ -83,6 +86,7 @@ a {
     height: 0;
     clear: both;
     visibility: hidden;*/ }
+
 
 
 /* --------------------------------------
@@ -112,9 +116,16 @@ FOOTER
   text-decoration: none;
 }
 
+#heart {
+  color: red;
+}
+
 /* --------------------------------------
 PAGE: HOME / BLOG
 ---------------------------------------- */
+.center {text-align: center;}
+
+
 
 
 /* --------------------------------------
@@ -141,8 +152,8 @@ PAGE:
 
 
 @media only screen and (min-width: 800px) {
-  .content {
-    max-width: 960px; } }
+  /*.content {
+    max-width: 960px; }*/ }
 @media screen and (max-device-width: 480px) {
   html {
     -webkit-text-size-adjust: 100%;
