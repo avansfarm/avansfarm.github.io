@@ -1,0 +1,19 @@
+---
+title: Flinging Flies
+category: home
+layout: default
+---
+
+<ul>
+  {% for post in site.posts %}
+  	{% if post.categories contains 'post' %}
+	    
+	    <li>
+	      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	      <em><small>Posted on {{ post.date | date: "%-d %B %Y" }}</small></em>
+	      {{ post.excerpt }}
+	    </li>
+
+	  {% endif %}  
+  {% endfor %}
+</ul>	

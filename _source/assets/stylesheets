@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - _source/_assets/sass
+
+Backtrace:
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:474:in `read'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:474:in `update_stylesheet'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:214:in `block in update_stylesheets'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:208:in `each'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:208:in `update_stylesheets'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:291:in `watch'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/plugin.rb:108:in `method_missing'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/exec.rb:509:in `watch_or_update'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/exec.rb:346:in `process_result'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/exec.rb:43:in `parse'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/lib/sass/exec.rb:22:in `parse!'
+/Users/travis/.rvm/gems/ruby-2.1.2/gems/sass-3.3.14/bin/sass:13:in `<top (required)>'
+/Users/travis/.rvm/gems/ruby-2.1.2/bin/sass:23:in `load'
+/Users/travis/.rvm/gems/ruby-2.1.2/bin/sass:23:in `<main>'
+/Users/travis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/travis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - _source/_assets/sass"; }
