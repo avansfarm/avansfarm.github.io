@@ -1,0 +1,26 @@
+title: FLINGING FLIES
+author: Travis Dailey
+subtitle: 
+description: 
+
+email: travismdailey@gmail.com
+twitter: travisdailey
+pinterest: travismdailey
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+include:     ['.htaccess']
+
+permalink: /:categories/:title
+markdown: rdiscount
+
+safe:        true
+watch:       false    # deprecated
+server:      false    # deprecated
+host:        0.0.0.0
+port:        4000
+baseurl:     /
+url:         http://localhost:4000
+lsi:         false
