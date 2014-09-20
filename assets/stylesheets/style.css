@@ -73,7 +73,7 @@ a {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 5%;
-  margin-left: 10%;
+  padding-left: 10%;
   margin-right: 10%;
   
   /*zoom: 1;
@@ -123,6 +123,9 @@ FOOTER
 /* --------------------------------------
 PAGE: HOME / BLOG
 ---------------------------------------- */
+.center {text-align: center;}
+
+
 
 
 /* --------------------------------------
@@ -149,8 +152,8 @@ PAGE:
 
 
 @media only screen and (min-width: 800px) {
-  .content {
-    max-width: 960px; } }
+  /*.content {
+    max-width: 960px; }*/ }
 @media screen and (max-device-width: 480px) {
   html {
     -webkit-text-size-adjust: 100%;
