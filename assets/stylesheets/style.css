@@ -87,7 +87,14 @@ a {
     clear: both;
     visibility: hidden;*/ }
 
+.main-picture {
+  padding-left: 5%;
+  margin-right: 5%;
+}
 
+.main-picture img {
+
+}
 
 /* --------------------------------------
 NAVIGATION
@@ -98,6 +105,9 @@ header {
   text-align: center;
 }
 
+img.home {
+  width: 70%;
+}
 
 
 
