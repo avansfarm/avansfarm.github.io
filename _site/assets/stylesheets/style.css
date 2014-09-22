@@ -87,13 +87,14 @@ a {
     clear: both;
     visibility: hidden;*/ }
 
+/* ------- Main picture on page ------- */
 .main-picture {
   padding-left: 5%;
   margin-right: 5%;
 }
 
 .main-picture img {
-
+  width: 100%;
 }
 
 /* --------------------------------------
