@@ -20,6 +20,7 @@ h1 {
 h2 {font-family: 'PT Serif', serif;
   font-weight: 700;
   font-size: 1.2em;
+  padding-bottom: 0.5em;
 }
 
 small {font-size: 0.8em;}
